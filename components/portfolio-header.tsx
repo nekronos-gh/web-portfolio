@@ -22,7 +22,7 @@ export function PortfolioHeader() {
 				Eduardo Rodríguez Sánchez
 			</h1>
 			<p className="text-primary text-sm sm:text-base">
-				{">"} Computer Engineer | HPC Researcher | PhD Applicant
+				{">"} Computer Engineer | HPC Researcher | Master Student
 			</p>
 		</header>
 	);

@@ -18,7 +18,7 @@ export default function Page() {
         <div className="text-xs text-muted-foreground mb-6">
           <span className="text-accent">{"$"}</span>{" "}
           <span>cat portfolio.md</span>
-          <span className="inline-block w-2 h-4 bg-primary ml-1 animate-pulse align-middle" aria-hidden="true" />
+          <span className="inline-block w-2 h-4 bg-primary ml-1 animate-cursor-blink align-middle" aria-hidden="true" />
         </div>
 
         <PortfolioHeader />
@@ -55,7 +55,7 @@ export default function Page() {
         {/* End prompt */}
         <div className="text-xs text-muted-foreground mt-6 mb-4">
           <span className="text-accent">{"$"}</span>{" "}
-          <span className="inline-block w-2 h-4 bg-primary animate-pulse align-middle" aria-hidden="true" />
+          <span className="inline-block w-2 h-4 bg-primary animate-cursor-blink align-middle" aria-hidden="true" />
         </div>
       </div>
     </main>
