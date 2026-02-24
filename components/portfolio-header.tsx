@@ -17,7 +17,7 @@ export function PortfolioHeader() {
 
       {/* Name + Info block */}
       <div className="flex flex-col gap-2">
-        <pre className="text-xs leading-tight font-mono text-green-400">
+        <pre className="ext-primary text-xs leading-tight hidden sm:block mb-4">
           {`
  ███████╗██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗  ██████╗ 
  ██╔════╝██╔══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗
@@ -26,8 +26,8 @@ export function PortfolioHeader() {
  ███████╗██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝╚██████╔╝
  ╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝`}
         </pre>
-        <p className="text-lg font-semibold text-white">Eduardo Rodríguez Sánchez</p>
-        <p className="text-sm text-gray-400">{">"} Computer Engineer | HPC Researcher | Master Student</p>
+        <p className="text-2xl sm:text-3xl font-bold text-foreground mb-1">Eduardo Rodríguez Sánchez</p>
+        <p className="text-primary text-sm sm:text-base">{">"} Computer Engineer | HPC Researcher | Master Student</p>
       </div>
     </header>
   );
