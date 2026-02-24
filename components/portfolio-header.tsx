@@ -35,7 +35,7 @@ export function PortfolioHeader() {
 
 export function StickyNav() {
   return (
-    <nav className="sticky top-0 z-50 bg-black text-green-400 font-mono text-sm py-2 px-4">
+    <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 py-2 flex flex-wrap gap-x-1 text-sm text-muted-foreground">
       [ <a href="#about">about</a> | <a href="#projects">projects</a> |{" "}
       <a href="#contact">contact</a> | <a href="#blogs">blogs</a> ]
     </nav>
