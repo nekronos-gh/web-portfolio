@@ -29,7 +29,7 @@ export function SectionProjects() {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block border border-border rounded-sm p-4 bg-secondary hover:border-primary transition-colors cursor-pointer group"
+              className="flex flex-col h-full border border-border rounded-sm p-4 bg-secondary hover:border-primary transition-colors cursor-pointer group"
             >
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-accent text-xs">{">"}</span>
@@ -38,10 +38,10 @@ export function SectionProjects() {
                 </span>
                 <span className="text-muted-foreground text-xs">{"[link]"}</span>
               </div>
-              <p className="text-xs text-muted-foreground leading-relaxed mb-3">
+              <p className="text-xs text-muted-foreground leading-relaxed mb-3 flex-grow">
                 {project.description}
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mt-auto">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
