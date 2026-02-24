@@ -4,7 +4,7 @@ import { TuiBox, TuiDivider } from "@/components/tui-box"
 import { metadata as firstOfMany } from "@/content/first-of-many.mdx"
 
 const posts = [
-  { slug: "hello-world", metadata: firstOfMany },
+  { slug: "first-of-many", metadata: firstOfMany },
 ]
 
 export default function BlogListingPage() {
