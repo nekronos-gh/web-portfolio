@@ -1,22 +1,30 @@
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 export function PortfolioHeader() {
 	return (
 		<header className="mb-8">
-			<pre
-				className="text-primary text-xs leading-tight hidden sm:block mb-4"
-				style={{
-					fontFamily:
-						'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
-				}}
-				aria-hidden="true"
-			>
-				{`
+			<div className="hidden sm:flex items-center gap-6 mb-4">
+				<pre
+					className="text-primary text-xs leading-tight"
+					style={{
+						fontFamily:
+							'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+					}}
+					aria-hidden="true"
+				>
+					{`
  ███████╗██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗  ██████╗ 
  ██╔════╝██╔══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗
  █████╗  ██║  ██║██║   ██║███████║██████╔╝██║  ██║██║   ██║
  ██╔══╝  ██║  ██║██║   ██║██╔══██║██╔══██╗██║  ██║██║   ██║
  ███████╗██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝╚██████╔╝
  ╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝`}
-			</pre>
+				</pre>
+				<Avatar className="h-24 w-24 border-2 border-primary/20">
+					<AvatarImage src="/profile.jpg" alt="Eduardo Rodríguez Sánchez" className="object-cover" />
+					<AvatarFallback className="text-2xl">ER</AvatarFallback>
+				</Avatar>
+			</div>
 
 			<h1 className="text-2xl sm:text-3xl font-bold text-foreground mb-1">
 				Eduardo Rodríguez Sánchez
