@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TuiDivider } from "@/components/tui-box"
 
-const slugs = ["hello-world"]
+const slugs = ["first-of-many"]
 
 export function generateStaticParams() {
   return slugs.map((slug) => ({ slug }))

@@ -1,10 +1,10 @@
 import Link from "next/link"
 import { TuiBox, TuiDivider } from "@/components/tui-box"
 
-import { metadata as helloWorldMeta } from "@/content/hello-world.mdx"
+import { metadata as firstOfMany } from "@/content/first-of-many.mdx"
 
 const posts = [
-  { slug: "hello-world", metadata: helloWorldMeta },
+  { slug: "hello-world", metadata: firstOfMany },
 ]
 
 export default function BlogListingPage() {
