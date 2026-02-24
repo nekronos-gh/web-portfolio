@@ -21,7 +21,7 @@ const projects = [
     url: "https://github.com/nekronos-gh/pbft-cpp",
     description:
       "Modular C++ implementation of the Practical Byzantine Fault Tolerance (PBFT) consensus algorithm with support for view changes, checkpointing, and state machine replication.",
-    tags: ["C++17", "Distributed Systems", "Block-Chain", "PBFT"],
+    tags: ["C++17", "Distributed Systems", "PBFT"],
   },
 ]
 
