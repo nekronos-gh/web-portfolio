@@ -16,6 +16,13 @@ const projects = [
       "File compression servcursoice using hybrid IPC architecture combining POSIX Message Queues and Shared Memory. Implemented state-machine based Ring Buffer with zero-copy memory access.",
     tags: ["C", "POSIX", "IPC"],
   },
+    {
+    name: "PBFT Implementation",
+    url: "https://github.com/nekronos-gh/pbft-cpp",
+    description:
+      "Modular C++ implementation of the Practical Byzantine Fault Tolerance (PBFT) consensus algorithm with support for view changes, checkpointing, and state machine replication.",
+    tags: ["C++17", "Distributed Systems", "Block-Chain", "PBFT"],
+  },
 ]
 
 export function SectionProjects() {
