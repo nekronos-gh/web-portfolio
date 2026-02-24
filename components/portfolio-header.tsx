@@ -6,7 +6,7 @@ export function PortfolioHeader() {
       {/* Rectangular Avatar - outside the name div */}
       <div className="w-36 h-44 rounded-lg overflow-hidden flex-shrink-0 border-2 border-gray-600 shadow-lg">
         <img
-          src="/avatar.png"
+          src="/profile.jpg"
           alt="Eduardo Rodríguez Sánchez"
           className="w-full h-full object-cover"
           onError={(e) => {
