@@ -10,7 +10,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Eduardo Rodriguez Sanchez | Computer Engineer",
+	title: "Eduardo Rodriguez Sanchez",
 	description:
 		"Computer Engineer, HPC Researcher, and Masters Student",
 };

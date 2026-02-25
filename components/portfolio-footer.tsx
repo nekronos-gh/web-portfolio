@@ -4,16 +4,18 @@ export function PortfolioFooter() {
 			<div className="border border-border rounded-sm overflow-hidden bg-card text-card-foreground">
 				{/* ASCII table header */}
 				<div
-					className="text-xs text-border select-none px-4 pt-3"
+					className="flex w-full text-xs text-border select-none px-4 pt-3"
 					aria-hidden="true"
 				>
-					{
-						"┌──────────────────────────────────────────────────────────────────┐"
-					}
+					<span>┌</span>
+					<span className="flex-1 overflow-hidden whitespace-nowrap">
+						{"─".repeat(200)}
+					</span>
+					<span>┐</span>
 				</div>
 
 				<div className="px-4 py-3">
-					<div className="flex flex-wrap gap-x-1 text-xs">
+					<div className="flex flex-wrap gap-x-1 text-xs justify-center">
 						<a
 							href="https://github.com/nekronos-gh"
 							target="_blank"
@@ -34,21 +36,16 @@ export function PortfolioFooter() {
 					</div>
 				</div>
 
-				{/* ASCII table divider */}
-				<div className="px-4 py-3">
-					<p className="text-xs text-foreground">
-						{"Eduardo Rodríguez Sánchez | 2026"}
-					</p>
-				</div>
-
 				{/* ASCII table footer */}
 				<div
-					className="text-xs text-border select-none px-4 pb-3"
+					className="flex w-full text-xs text-border select-none px-4 pb-3"
 					aria-hidden="true"
 				>
-					{
-						"└──────────────────────────────────────────────────────────────────┘"
-					}
+					<span>└</span>
+					<span className="flex-1 overflow-hidden whitespace-nowrap">
+						{"─".repeat(200)}
+					</span>
+					<span>┘</span>
 				</div>
 			</div>
 		</footer>

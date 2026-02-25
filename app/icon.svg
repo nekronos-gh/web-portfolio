@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="64" height="64" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="image-rendering:pixelated">
+        <rect width="16" height="16" fill="#00000000"/>
+        <!-- chip body -->
+        <rect x="4" y="4" width="8" height="8" fill="#5DA6F8"/>
+        <rect x="5" y="5" width="6" height="6" fill="#0d0d0d"/>
+        <!-- inner grid -->
+        <rect x="6" y="6" width="1" height="1" fill="#5da6f8"/>
+        <rect x="8" y="6" width="1" height="1" fill="#5da6f8"/>
+        <rect x="6" y="8" width="1" height="1" fill="#5da6f8"/>
+        <rect x="8" y="8" width="1" height="1" fill="#5da6f8"/>
+        <rect x="7" y="7" width="2" height="2" fill="#5da6f8"/>
+        <!-- pins top/bottom -->
+        <rect x="6" y="2" width="1" height="2" fill="#5da6f8"/>
+        <rect x="9" y="2" width="1" height="2" fill="#5da6f8"/>
+        <rect x="6" y="12" width="1" height="2" fill="#5da6f8"/>
+        <rect x="9" y="12" width="1" height="2" fill="#5da6f8"/>
+        <!-- pins left/right -->
+        <rect x="2" y="6" width="2" height="1" fill="#5da6f8"/>
+        <rect x="2" y="9" width="2" height="1" fill="#5da6f8"/>
+        <rect x="12" y="6" width="2" height="1" fill="#5da6f8"/>
+        <rect x="12" y="9" width="2" height="1" fill="#5da6f8"/>
+      </svg>
