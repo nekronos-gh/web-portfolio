@@ -11,8 +11,8 @@ export default function BlogListingPage() {
   return (
     <>
       <div className="flex items-center gap-2 mb-6">
-        <span className="text-muted-foreground">{"##"}</span>
-        <h1 className="text-primary font-bold text-2xl">Blog</h1>
+        <span className="text-muted-foreground">{"#"}</span>
+        <h1 className="text-primary font-bold text-2xl">Blogs</h1>
       </div>
 
       <div className="space-y-4">

@@ -4,7 +4,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     h1: ({ children }) => (
       <div className="flex items-center gap-2 mb-4 mt-8">
-        <span className="text-muted-foreground">{"##"}</span>
+        <span className="text-muted-foreground">{"#"}</span>
         <h1 className="text-primary font-bold text-2xl">{children}</h1>
       </div>
     ),
@@ -16,7 +16,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
     h3: ({ children }) => (
       <div className="flex items-center gap-2 mb-2 mt-4">
-        <span className="text-muted-foreground">{"##"}</span>
+        <span className="text-muted-foreground">{"###"}</span>
         <h3 className="text-primary font-bold text-lg">{children}</h3>
       </div>
     ),
